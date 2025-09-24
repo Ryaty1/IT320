@@ -61,3 +61,5 @@ ls -a #list all files including hidden files
 :%s/Amendment/Law/
 :%s/amendment/law/g #g is for global, to replace all occurrences in the file.
 :%s/amendment/law/"number" #"number" it will show you how many time will be replaced.
+
+vimtutor #this is to learn how to use vi/vim editor. vimtutor is a tutorial for vi/vim editor.
