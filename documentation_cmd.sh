@@ -59,3 +59,5 @@ ls -a #list all files including hidden files
 
 #search and replace in vi, :%s/old/new/g
 :%s/Amendment/Law/
+:%s/amendment/law/g #g is for global, to replace all occurrences in the file.
+:%s/amendment/law/"number" #"number" it will show you how many time will be replaced.
