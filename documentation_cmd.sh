@@ -49,6 +49,7 @@ sudo apt install python3 #ai comment
 sudo yum install python3 python3-pip -y #from class
 pip3  install tldr #from class, tldr is a simplified and community, tldr stands for too long didn't read. this is to install tldr. and we can use tldr to see simple manual pages.
 tldr less #ai comment
+tldr vim #simply check how to use vim editor
 -
 vi 11 #vi is a text editor, 11 is the file name. vi is a bit tricky to use. hit i to go into insert mode, hit esc to go back to command mode, type :wq to write and quit, type :q! to quit without saving. :wq stands for write and quit, q! stands for quit without saving.
 
