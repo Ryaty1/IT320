@@ -32,4 +32,24 @@ mkdir playing
    50  vi cut_paste_sort_egrep_wc_uniq.sh
    51  \. cut_paste_sort_egrep_wc_uniq.sh 
    ------
-   
+
+
+
+
+
+
+Question 1: Which users have the most processes right now? 
+Command: ps -eo user --no-headers | sort | uniq -c | sort -nr | head
+
+
+Question 2: Which processes have been running the longest? 
+Command: ps -eo user,etime,comm --no-headers | sort -k2r | head
+
+
+Question 3: What started most recently by user? 
+Command: ps -eo user,stime,comm --no-headers | sort -k2 
+
+
+
+
+
