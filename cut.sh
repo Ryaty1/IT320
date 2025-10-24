@@ -30,3 +30,8 @@ last | grep -v ^reboot | tr -s ' '
 last | grep -v ^reboot | tr -s ' ' | cut -d " " -f 1
 last | grep -v ^reboot | tr -s ' ' | cut -d " " -f 1 | sort -n
 last | grep -v ^reboot | tr -s ' ' | cut -d " " -f 1 | sort -n | uniq
+vi cool_name.sh #in there we paste last | grep -v ^reboot | tr -s ' ' | cut -d " " -f 1 | sort -n | uniq
+chmod +x cool_name.sh
+ls
+./cool_name.sh 
+bash cool_name.sh
