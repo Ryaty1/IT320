@@ -22,3 +22,21 @@ tail kjv.txt #to see the last 10 lines
 ls -lh #to see the size of the file
 
 tar -czf - kjv.txt | split -b 500k - kjv.tar.gz.split & #this will split the file into 500kb chunks and save them in kjv.tar.gz.split, the & will run the command in the background
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+mkdir new
+
+cp kjv.txt new
+cd new
+vi kjv.txt #this will open the file in vi editor, and we will make a little change on the file.
+
+diff kjv.txt ../kjv.txt #this will show the difference between the two files
+
+#this is the output:
+
+[ec2-user@ip-172-31-19-80 new]$ diff kjv.txt ../kjv.txt
+1c1
+< KJV The Bible
+---
+> KJV
+[ec2-user@ip-172-31-19-80 new]$ 
