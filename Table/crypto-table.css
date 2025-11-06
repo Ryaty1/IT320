@@ -348,7 +348,7 @@ body {
     color: #9ca3af;
 }
 
-/* Responsive Design */
+/* Responsive Design tests*/
 @media (max-width: 1024px) {
     .container {
         flex-direction: column;
