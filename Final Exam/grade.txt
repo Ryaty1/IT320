@@ -1,0 +1,54 @@
+[ec2-user@ip-172-31-70-86 ~]$ sudo ./FinalGrader.sh
+RIGHT: Cups is installed
+SCORE: 10 / 10
+
+RIGHT: You killed the first process
+SCORE: 20 / 20
+
+RIGHT: You killed the second process
+SCORE: 30 / 30
+
+RIGHT: You killed the cups web server
+SCORE: 40 / 40
+
+RIGHT: You installed Apache
+SCORE: 43 / 43
+
+RIGHT: You put your username on the webpage
+SCORE: 48 / 48
+
+RIGHT: Apache is set to start on boot
+SCORE: 50 / 50
+
+RIGHT: You made finalCheck.sh, upload it to canvas for grading
+
+RIGHT: Made holy group
+RIGHT: all the users are added to the holy group
+SCORE: 53 / 53
+
+RIGHT: You made ssh keys for user "wisemen"
+
+RIGHT: User wisemen is able to log in
+SCORE: 57 / 57
+
+RIGHT: Shared folder was created
+RIGHT: Sticky bit set on shared folder
+SCORE: 58 / 58
+
+RIGHT: Group holy has access
+SCORE: 60 / 60
+
+RIGHT: Your connect script produces the desired output
+SCORE: 65 / 65
+
+RIGHT: You listed active programs correctly
+SCORE: 70 / 70
+
+RIGHT: You made the traceroute file
+SCORE: 75 / 75
+
+WRONG: Your traceroute file is not sorted correctly (Hint: Make sure it is sorted numerically by a certain field)
+SCORE: 75 / 80
+
+Make sure you upload grade.txt and your finalCheck.sh to canvas
+[ec2-user@ip-172-31-70-86 ~]$ 
